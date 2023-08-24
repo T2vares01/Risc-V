@@ -54,10 +54,19 @@ perde: print_str(" \n smt ") #caso não tenha
 	
 	j game_loop
 venceu: 
+	li t3, 0
 	print_str(" tem")
-	mv a0, t1
-	li a7,11
+	bge t0, t2, game_loop
+	escreve_palavra:
+	beq t3, t0, imprime_letra# se a posicao da letra
+	print_str("_ ")
+	addi t3, t3, 1 #
+	j escreve_palavra
+	imprime_letra: 
+	mv a0, t1# t1 = letra
+	li a7, 4
 	ecall
+	j venceu
 	
 fora_loop:
 	print_str(" saiu do loop")
