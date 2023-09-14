@@ -13,7 +13,7 @@ text: .string %str
 .data
 nome: .string "ronaldo"
 nome_secreto: .string "_ _ _ _ _ _ _"
-espaço : .string 
+espaÃ§o : .string 
 .text
 
 print_str("VIDAS ")
@@ -110,3 +110,5 @@ acertou:
 	print_str("ganhou parabens\n")	
 fora_loop:
 	print_str(" saiu do loop")
+
+#https://produto.mercadolivre.com.br/MLB-1677933780-frame-quadricoptero-drone-f450-com-placa-pcb-_JM?matt_tool=18956390&utm_source=google_shopping&utm_medium=organic#questions-0#
