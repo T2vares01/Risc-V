@@ -110,5 +110,3 @@ acertou:
 	print_str("ganhou parabens\n")	
 fora_loop:
 	print_str(" saiu do loop")
-
-#https://produto.mercadolivre.com.br/MLB-1677933780-frame-quadricoptero-drone-f450-com-placa-pcb-_JM?matt_tool=18956390&utm_source=google_shopping&utm_medium=organic#questions-0#
